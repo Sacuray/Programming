@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="52.0632799671593" y="1059.0">humans.Scientist</node>
+    <node x="275.229946633826" y="0.0">items.Items</node>
+    <node x="465.0007799671593" y="810.0">humans.Narrator</node>
+    <node x="287.0632799671593" y="575.0">world.Place</node>
+    <node x="428.5632799671593" y="371.0">world.EnvObj</node>
+    <node x="330.3132799671593" y="1048.0">humans.Readers</node>
+    <node x="183.5632799671593" y="293.0">world.EnvironmentObject</node>
+    <node x="133.3132799671593" y="877.0">humans.AbleToUnderstand</node>
+    <node x="338.79833743842363" y="1360.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="world.Place">
+      <point x="-16.666666666666686" y="-27.0" />
+      <point x="397.13167077175694" y="1310.0" />
+      <point x="319.8132799671593" y="1310.0" />
+      <point x="319.8132799671593" y="790.0" />
+      <point x="363.1882799671593" y="790.0" />
+      <point x="-10.875" y="82.5" />
+    </edge>
+    <edge source="humans.Readers" target="humans.AbleToUnderstand">
+      <point x="-87.19999999999993" y="-116.0" />
+      <point x="352.1132799671594" y="1023.0" />
+      <point x="265.3132799671593" y="1023.0" />
+      <point x="44.0" y="27.0" />
+    </edge>
+    <edge source="humans.Narrator" target="items.Items">
+      <point x="58.0" y="-94.0" />
+      <point x="610.0007799671594" y="273.0" />
+      <point x="424.5156609195403" y="273.0" />
+      <point x="54.285714285714334" y="116.5" />
+    </edge>
+    <edge source="world.Place" target="world.EnvironmentObject">
+      <point x="-21.75" y="-82.5" />
+      <point x="56.0" y="116.0" />
+    </edge>
+    <edge source="world.Place" target="items.Items">
+      <point x="21.75" y="-82.5" />
+      <point x="395.8132799671593" y="550.0" />
+      <point x="418.0632799671593" y="550.0" />
+      <point x="418.0632799671593" y="273.0" />
+      <point x="397.37280377668316" y="273.0" />
+      <point x="27.142857142857167" y="116.5" />
+    </edge>
+    <edge source="humans.Scientist" target="world.Place">
+      <point x="21.75" y="-105.0" />
+      <point x="160.8132799671593" y="1023.0" />
+      <point x="122.8132799671593" y="1023.0" />
+      <point x="122.8132799671593" y="780.0" />
+      <point x="341.4382799671593" y="780.0" />
+      <point x="-32.625" y="82.5" />
+    </edge>
+    <edge source="humans.Narrator" target="world.Place">
+      <point x="-58.0" y="-94.0" />
+      <point x="494.0007799671593" y="770.0" />
+      <point x="428.4382799671593" y="770.0" />
+      <point x="54.375" y="82.5" />
+    </edge>
+    <edge source="Main" target="humans.Scientist">
+      <point x="-50.00000000000006" y="-27.0" />
+      <point x="363.7983374384236" y="1330.0" />
+      <point x="95.5632799671593" y="1330.0" />
+      <point x="-43.5" y="105.0" />
+    </edge>
+    <edge source="world.Place" target="world.EnvObj">
+      <point x="65.25" y="-82.5" />
+      <point x="439.3132799671593" y="550.0" />
+      <point x="508.5632799671593" y="550.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="humans.Scientist" target="items.Items">
+      <point x="-65.25" y="-105.0" />
+      <point x="73.8132799671593" y="1023.0" />
+      <point x="89.5406403940886" y="1023.0" />
+      <point x="89.5406403940886" y="253.0" />
+      <point x="288.80137520525454" y="253.0" />
+      <point x="-81.42857142857144" y="116.5" />
+    </edge>
+    <edge source="world.EnvironmentObject" target="items.Items">
+      <point x="-74.66666666666669" y="-116.0" />
+      <point x="220.89661330049262" y="263.0" />
+      <point x="315.9442323481117" y="263.0" />
+      <point x="-54.28571428571428" y="116.5" />
+    </edge>
+    <edge source="humans.Readers" target="humans.Narrator">
+      <point x="43.60000000000002" y="-116.0" />
+      <point x="482.9132799671593" y="1023.0" />
+      <point x="486.7507799671593" y="1023.0" />
+      <point x="-65.25" y="94.0" />
+    </edge>
+    <edge source="Main" target="items.Items">
+      <point x="66.66666666666669" y="-27.0" />
+      <point x="480.4650041050903" y="1340.0" />
+      <point x="658.1741174055828" y="1340.0" />
+      <point x="658.1741174055828" y="263.0" />
+      <point x="451.65851806239743" y="263.0" />
+      <point x="81.42857142857144" y="116.5" />
+    </edge>
+    <edge source="humans.Scientist" target="humans.AbleToUnderstand">
+      <point x="65.25" y="-105.0" />
+      <point x="204.3132799671593" y="1023.0" />
+      <point x="177.3132799671593" y="1023.0" />
+      <point x="-44.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="humans.Readers">
+      <point x="0.0" y="-27.0" />
+      <point x="413.79833743842363" y="1300.0" />
+      <point x="384.8132799671593" y="1300.0" />
+      <point x="-54.5" y="116.0" />
+    </edge>
+    <edge source="Main" target="humans.Narrator">
+      <point x="50.0" y="-27.0" />
+      <point x="463.79833743842363" y="1330.0" />
+      <point x="611.6257799671594" y="1330.0" />
+      <point x="611.6257799671594" y="1023.0" />
+      <point x="617.2507799671594" y="1023.0" />
+      <point x="65.25" y="94.0" />
+    </edge>
+    <edge source="humans.Readers" target="world.Place">
+      <point x="0.0" y="-116.0" />
+      <point x="439.3132799671593" y="1023.0" />
+      <point x="428.0406403940886" y="1023.0" />
+      <point x="428.0406403940886" y="780.0" />
+      <point x="406.6882799671593" y="780.0" />
+      <point x="32.625" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7212020033388982" x="269.0" y="1124.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
