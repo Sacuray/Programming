@@ -1,12 +1,12 @@
 package world;
 
-import items.Items;
+import items.Item;
 import java.util.Objects;
 import java.util.ArrayList;
 
 public abstract class EnvironmentObject {
     private String nameObject;
-    private ArrayList<Items> arrayOfItems = new ArrayList<Items>();
+    private ArrayList<Item> arrayOfItems = new ArrayList<Item>();
     private float gInCenter; //This is physical constant, not stupid naming
     private float gOnEdge; //This is physical constant, not stupid naming
 
@@ -28,11 +28,11 @@ public abstract class EnvironmentObject {
         this.gOnEdge = g;//g can change from time to time, because we are in the fantasy
     }
 
-    public void addInArrayOfItems(Items item) {
+    public void addInArrayOfItems(Item item) {
         this.arrayOfItems.add(item);
     }
 
-    public ArrayList<Items> getArrayOfItems() {
+    public ArrayList<Item> getArrayOfItems() {
         return arrayOfItems;
     }
 

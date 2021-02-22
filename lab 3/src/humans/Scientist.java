@@ -1,5 +1,5 @@
 package humans;
-import items.Items;
+import items.Item;
 import world.EnvironmentObject;
 import world.Place;
 
@@ -24,9 +24,9 @@ public class Scientist implements AbleToUnderstand{
         return place;
     }
 
-    public void bringItem(Items item){
+    public void bringItem(Item item){
         this.place.addInArrayOfItems(item);
-        System.out.println(getName() + " приносит в " + place.getNameObject() + " : " + item.getItem());
+        System.out.println(getName() + " приносит в " + place.getNameObject() + " : " + item.getName());
         place.checkItems();
     }
 

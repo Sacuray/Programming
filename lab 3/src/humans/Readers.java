@@ -54,7 +54,7 @@ public class Readers implements AbleToUnderstand{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Readers readers = (Readers) o;
-        return this.name.equals(readers.name) && this.getPlace().equals(readers.getPlace());
+        return this.name.equals(readers.name) && this.narrator.equals(readers.getNarrator()) && this.getPlace().equals(readers.getPlace());
     }
 
     @Override

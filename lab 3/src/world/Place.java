@@ -1,6 +1,8 @@
 package world;
 
-import items.Items;
+import items.Item;
+import items.MaterialOfItem;
+
 import java.util.Objects;
 
 public class Place extends EnvironmentObject implements EnvObj{
@@ -19,7 +21,17 @@ public class Place extends EnvironmentObject implements EnvObj{
 
     @Override
     public void checkItems() {
-        if (getArrayOfItems().contains(Items.MOON_STONE) && getArrayOfItems().contains(Items.MAGNET)){
+        boolean existMagnet = false;
+        boolean existMoonRock = false;
+        for(int i = 0; i < getArrayOfItems().size(); i++){
+            if (getArrayOfItems().get(i).getMaterial() == MaterialOfItem.FERRUM){
+                existMagnet = true;
+            }
+            if (getArrayOfItems().get(i).getMaterial() == MaterialOfItem.MOON_STONE){
+                existMoonRock = true;
+            }
+        }
+        if (existMagnet && existMoonRock){
             changeGravity();
             System.out.println("Система из лунного камня и магнита изменила гравитацию");
             System.out.println("Гравитация в центре: " + getGInCenter());

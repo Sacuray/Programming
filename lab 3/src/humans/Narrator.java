@@ -1,6 +1,6 @@
 package humans;
 
-import items.Items;
+import items.Item;
 import world.Place;
 
 import java.util.Objects;
@@ -24,13 +24,17 @@ public class Narrator{
         return place;
     }
 
-    public void answer(){
-        if(place.getGInCenter() == 0.0f) {
-            System.out.println(getName() + " замечает, что в лунном камне и магните, как и в любом веществе энергии: " + Items.getCountOfEnergy());
-            System.out.println(getName() + " читает лекцию по физике");
-            System.out.println(getName() + " замечает, что ускорение свободного падения на краю области равно " + place.getGOnEdge());
-            System.out.println(getName() + ": Это больше чем норма, а значит невесомость в центре компенсируется высоким притяжением по краю");
-        }
+    public void answer(Item rock_coal, Item penny){
+        final int koef = 1000000;
+        System.out.println("Носов: Сейчас всё объясню");
+        System.out.println("Носов: Если сжечь этот " + rock_coal.getName() + ", массой " + rock_coal.getMass() + " грамм, ведилится энергия " + rock_coal.getBurnEnergy() + "МДж");
+        System.out.println("Носов: С другой стороны в  " + penny.getName() + ", массой " + penny.getMass() + " грамм, содержится энергия " + penny.getNuclearEnergy() + "ТераДж");
+        int comparing = (int) (penny.getNuclearEnergy() / rock_coal.getBurnEnergy() * koef);
+        System.out.println("Носов: и это в " + comparing + " раз больше, чем теплота сгорания угля");
+        float mass_of_coal = comparing * rock_coal.getMass() / koef;
+        System.out.println("Носов: Значит, чтобы получить такое количество энергии, надо сжечь " + mass_of_coal + " тонн угля");
+        System.out.println("Носов: Внутренняя ядерная энергия содержится в любом предмете и ч ем больше масса, тем больше энергии");
+        System.out.println("Носов: Так что здесь нет ничего удивительного и лунный камень с магнитом вполне могут изменить гравитационное поле, энергии в них для этого достаточно");
     }
 
     @Override
