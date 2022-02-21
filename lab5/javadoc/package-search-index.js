@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"commands"},{"l":"data"},{"l":"managers"},{"l":"readers"},{"l":"readers.complex"},{"l":"readers.simple"},{"l":"readers.simple.notNumber"},{"l":"readers.simple.number"}]
