@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2332.4375" y="3378.0">commands.RemoveByIdCommand</node>
+    <node x="5452.329150003241" y="658.0">readers.ValueReader</node>
+    <node x="1357.4375" y="3378.0">commands.RemoveLowerCommand</node>
+    <node x="5017.262633564209" y="0.0">managers.ReadMod</node>
+    <node x="3186.3346680514464" y="1301.0">data.Weapon</node>
+    <node x="5935.718166162321" y="2894.0">readers.complex.SpaceMarineReader</node>
+    <node x="2886.4375" y="3378.0">commands.SaveCommand</node>
+    <node x="5398.324983336575" y="2403.0">readers.complex.CoordinatesReader</node>
+    <node x="6297.815419947805" y="1798.5">readers.complex.ValueComplexReader</node>
+    <node x="4441.897168051446" y="1333.5">data.Chapter</node>
+    <node x="4817.8125" y="1776.5">readers.simple.notNumber.EnumReader</node>
+    <node x="1596.5133366144714" y="3760.0">managers.Interpreter</node>
+    <node x="217.5486111111113" y="3378.0">commands.ShowCommand</node>
+    <node x="5348.823154893552" y="1356.0">readers.simple.ZonedDateTimeReader</node>
+    <node x="4961.262633564209" y="171.0">managers.IOManager</node>
+    <node x="3102.4375" y="3378.0">commands.ExecuteScriptCommand</node>
+    <node x="4866.647168051446" y="2414.0">readers.simple.notNumber.MeleeWeaponReader</node>
+    <node x="6719.964821560218" y="3378.0">commands.AddIfMinCommand</node>
+    <node x="880.4375" y="3378.0">commands.SumOfHealthCommand</node>
+    <node x="4598.647168051446" y="2414.0">readers.simple.notNumber.AstartesCategoryReader</node>
+    <node x="1839.9755356109918" y="2849.0">commands.Command</node>
+    <node x="1144.4375" y="3378.0">commands.InfoCommand</node>
+    <node x="1624.4375" y="3378.0">commands.ExitCommand</node>
+    <node x="5651.823154893552" y="1809.5">readers.simple.number.FloatReader</node>
+    <node x="2590.4375" y="3378.0">commands.FilterContainsNameCommand</node>
+    <node x="3914.6471680514464" y="1323.0">data.MeleeWeapon</node>
+    <node x="6814.749416162321" y="1786.5">readers.simple.StringReader</node>
+    <node x="5849.200836614471" y="1289.0">readers.simple.number.NumberReader</node>
+    <node x="5321.117503281138" y="1045.0">readers.simple.ValueSimpleReader</node>
+    <node x="437.5486111111113" y="3378.0">commands.ClearCommand</node>
+    <node x="1835.4375" y="3378.0">commands.FilterByHealthCommand</node>
+    <node x="5885.823154893552" y="1787.0">readers.simple.number.IntegerReader</node>
+    <node x="16.388888888888687" y="2248.0">managers.SpaceMarineCollection</node>
+    <node x="5861.262633564209" y="282.5">readers.ValueFormatException</node>
+    <node x="5811.516650003241" y="2403.0">readers.complex.ChapterReader</node>
+    <node x="656.5486111111113" y="3378.0">commands.HelpCommand</node>
+    <node x="4376.647168051446" y="2414.0">readers.simple.notNumber.WeaponReader</node>
+    <node x="7277.361403508771" y="3378.5">managers.InterpreterMode</node>
+    <node x="3596.0846680514464" y="1301.0">data.AstartesCategory</node>
+    <node x="6960.964821560218" y="3378.0">commands.InsertAtCommand</node>
+    <node x="3262.0846680514464" y="1710.0">data.SpaceMarine</node>
+    <node x="4141.647168051446" y="1333.5">data.Coordinates</node>
+    <node x="3365.4375" y="3378.0">commands.AddCommand</node>
+    <node x="2101.4375" y="3378.0">commands.UpdateCommand</node>
+    <node x="1654.0133366144714" y="4197.0">Main</node>
+    <node x="6551.815419947804" y="1798.0">readers.simple.number.LongReader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="managers.Interpreter" target="commands.InfoCommand">
+      <point x="-35.33333333333303" y="-193.5" />
+      <point x="1693.6800032811384" y="3580.0" />
+      <point x="1192.4375" y="3580.0" />
+      <point x="-48.0" y="61.0" />
+    </edge>
+    <edge source="readers.simple.notNumber.MeleeWeaponReader" target="readers.simple.notNumber.EnumReader">
+      <point x="-29.375" y="-49.5" />
+      <point x="4954.772168051446" y="2228.0" />
+      <point x="4978.3125" y="2228.0" />
+      <point x="53.5" y="82.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.MeleeWeaponReader" target="data.MeleeWeapon">
+      <point x="-88.125" y="-49.5" />
+      <point x="4896.022168051446" y="2178.0" />
+      <point x="4695.888336614471" y="2178.0" />
+      <point x="4695.888336614471" y="1600.0" />
+      <point x="4095.7721680514464" y="1600.0" />
+      <point x="77.625" y="71.5" />
+    </edge>
+    <edge source="readers.simple.number.IntegerReader" target="readers.simple.number.NumberReader">
+      <point x="29.625" y="-72.0" />
+      <point x="6033.948154893552" y="1680.0" />
+      <point x="5965.867503281137" y="1680.0" />
+      <point x="16.66666666666663" y="105.5" />
+    </edge>
+    <edge source="commands.HelpCommand" target="managers.Interpreter">
+      <point x="49.25" y="61.0" />
+      <point x="804.2986111111113" y="3640.0" />
+      <point x="1658.3466699478045" y="3640.0" />
+      <point x="-70.66666666666697" y="-193.5" />
+    </edge>
+    <edge source="readers.simple.number.FloatReader" target="readers.simple.number.NumberReader">
+      <point x="80.25" y="-49.5" />
+      <point x="5839.073154893552" y="1690.0" />
+      <point x="5899.200836614471" y="1690.0" />
+      <point x="-50.0" y="105.5" />
+    </edge>
+    <edge source="commands.HelpCommand" target="commands.Command">
+      <point x="-49.25" y="-61.0" />
+      <point x="705.7986111111113" y="3108.0" />
+      <point x="1868.3505356109918" y="3108.0" />
+      <point x="-85.125" y="94.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.HelpCommand">
+      <point x="-76.55555555555566" y="-193.5" />
+      <point x="1652.4577810589158" y="3650.0" />
+      <point x="705.7986111111113" y="3650.0" />
+      <point x="-49.25" y="61.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="managers.Interpreter">
+      <point x="52.75" y="61.0" />
+      <point x="2259.6875" y="3560.0" />
+      <point x="1752.568892170027" y="3560.0" />
+      <point x="23.555555555555657" y="-193.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.RemoveLowerCommand">
+      <point x="-17.66666666666697" y="-193.5" />
+      <point x="1711.3466699478045" y="3550.0" />
+      <point x="1419.1875" y="3550.0" />
+      <point x="-61.75" y="61.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.ExitCommand">
+      <point x="-5.888888888888687" y="-193.5" />
+      <point x="1723.1244477255827" y="3530.0" />
+      <point x="1672.1875" y="3530.0" />
+      <point x="-47.75" y="61.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="commands.Command">
+      <point x="-42.200000000000045" y="-61.0" />
+      <point x="2164.7375" y="3248.0" />
+      <point x="1975.544980055436" y="3248.0" />
+      <point x="22.069444444444343" y="94.5" />
+    </edge>
+    <edge source="readers.simple.ZonedDateTimeReader" target="readers.ValueFormatException">
+      <point x="-31.125" y="-38.5" />
+      <point x="5442.198154893552" y="1219.0" />
+      <point x="5088.575836614471" y="1219.0" />
+      <point x="5088.575836614471" y="985.0" />
+      <point x="5399.617503281138" y="985.0" />
+      <point x="5399.617503281138" y="608.0" />
+      <point x="5892.912633564209" y="608.0" />
+      <point x="-73.85000000000014" y="27.0" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="commands.Command">
+      <point x="0.0" y="-61.0" />
+      <point x="2451.4375" y="3228.0" />
+      <point x="1988.1560911665474" y="3228.0" />
+      <point x="34.68055555555566" y="94.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.AstartesCategoryReader" target="data.AstartesCategory">
+      <point x="-93.0" y="-49.5" />
+      <point x="4629.647168051446" y="2128.0" />
+      <point x="4355.147168051446" y="2128.0" />
+      <point x="4355.147168051446" y="1620.0" />
+      <point x="3788.5846680514464" y="1620.0" />
+      <point x="82.5" y="93.5" />
+    </edge>
+    <edge source="commands.InsertAtCommand" target="readers.simple.number.IntegerReader">
+      <point x="84.80000000000018" y="-61.0" />
+      <point x="7151.7648215602185" y="3358.0" />
+      <point x="7206.161403508771" y="3358.0" />
+      <point x="7206.161403508771" y="2028.0" />
+      <point x="6103.073154893552" y="2028.0" />
+      <point x="98.75" y="72.0" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.complex.ValueComplexReader">
+      <point x="59.473684210526244" y="-49.5" />
+      <point x="6108.191850372847" y="2789.0" />
+      <point x="6129.829150003241" y="2789.0" />
+      <point x="6129.829150003241" y="2208.0" />
+      <point x="6473.315419947805" y="2208.0" />
+      <point x="58.5" y="60.5" />
+    </edge>
+    <edge source="readers.simple.number.LongReader" target="managers.IOManager">
+      <point x="26.75" y="-61.0" />
+      <point x="6685.565419947804" y="508.0" />
+      <point x="5222.414807477252" y="508.0" />
+      <point x="114.65217391304327" y="138.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.EnumReader" target="readers.simple.ValueSimpleReader">
+      <point x="42.799999999999955" y="-82.5" />
+      <point x="4967.612499999999" y="1690.0" />
+      <point x="4935.0125" y="1690.0" />
+      <point x="4935.0125" y="1269.0" />
+      <point x="5335.117503281138" y="1269.0" />
+      <point x="-98.0" y="27.0" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.simple.number.LongReader">
+      <point x="83.26315789473688" y="-49.5" />
+      <point x="6131.9813240570575" y="2809.0" />
+      <point x="6605.315419947804" y="2809.0" />
+      <point x="-53.5" y="61.0" />
+    </edge>
+    <edge source="readers.simple.notNumber.AstartesCategoryReader" target="managers.IOManager">
+      <point x="-31.0" y="-49.5" />
+      <point x="4691.647168051446" y="2188.0" />
+      <point x="4771.388336614471" y="2188.0" />
+      <point x="4771.388336614471" y="598.0" />
+      <point x="5056.806111825078" y="598.0" />
+      <point x="-50.956521739130494" y="138.5" />
+    </edge>
+    <edge source="commands.ExecuteScriptCommand" target="commands.Command">
+      <point x="-81.0" y="-61.0" />
+      <point x="3142.9375" y="3178.0" />
+      <point x="2019.6838689443248" y="3178.0" />
+      <point x="66.20833333333303" y="94.5" />
+    </edge>
+    <edge source="readers.simple.number.FloatReader" target="managers.IOManager">
+      <point x="-80.25" y="-49.5" />
+      <point x="5678.573154893552" y="1690.0" />
+      <point x="5619.323154893552" y="1690.0" />
+      <point x="5619.323154893552" y="1179.0" />
+      <point x="5182.638336614471" y="1179.0" />
+      <point x="5182.638336614471" y="638.0" />
+      <point x="5120.501763998991" y="638.0" />
+      <point x="12.73913043478251" y="138.5" />
+    </edge>
+    <edge source="commands.SaveCommand" target="commands.Command">
+      <point x="-65.33333333333303" y="-61.0" />
+      <point x="2919.104166666667" y="3198.0" />
+      <point x="2007.0727578332144" y="3198.0" />
+      <point x="53.597222222222626" y="94.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.simple.notNumber.AstartesCategoryReader">
+      <point x="-11.894736842105203" y="-49.5" />
+      <point x="6036.823429320216" y="2749.0" />
+      <point x="4722.647168051446" y="2749.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="readers.complex.CoordinatesReader" target="readers.ValueReader">
+      <point x="-33.15000000000009" y="-60.5" />
+      <point x="5475.674983336575" y="2068.0" />
+      <point x="5641.323154893552" y="2068.0" />
+      <point x="5641.323154893552" y="1269.0" />
+      <point x="5842.409169947805" y="1269.0" />
+      <point x="5842.409169947805" y="1025.0" />
+      <point x="5539.829150003241" y="1025.0" />
+      <point x="-12.5" y="138.5" />
+    </edge>
+    <edge source="commands.ExecuteScriptCommand" target="managers.Interpreter">
+      <point x="0.0" y="61.0" />
+      <point x="3223.9375" y="3640.0" />
+      <point x="1799.6800032811384" y="3640.0" />
+      <point x="70.66666666666697" y="-193.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.AddIfMinCommand">
+      <point x="94.22222222222263" y="-193.5" />
+      <point x="1823.235558836694" y="3680.0" />
+      <point x="6775.214821560218" y="3680.0" />
+      <point x="-55.25" y="61.0" />
+    </edge>
+    <edge source="commands.InsertAtCommand" target="readers.complex.SpaceMarineReader">
+      <point x="0.0" y="-61.0" />
+      <point x="7066.964821560218" y="3068.0" />
+      <point x="6145.575309019464" y="3068.0" />
+      <point x="96.85714285714289" y="49.5" />
+    </edge>
+    <edge source="readers.simple.number.NumberReader" target="managers.IOManager">
+      <point x="25.0" y="-105.5" />
+      <point x="5974.200836614471" y="995.0" />
+      <point x="5430.829150003241" y="995.0" />
+      <point x="5430.829150003241" y="568.0" />
+      <point x="5158.719155303339" y="568.0" />
+      <point x="50.95652173913027" y="138.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.RemoveByIdCommand">
+      <point x="29.444444444444343" y="-193.5" />
+      <point x="1758.4577810589158" y="3570.0" />
+      <point x="2391.9375" y="3570.0" />
+      <point x="-59.5" y="61.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.ShowCommand">
+      <point x="-100.11111111111131" y="-193.5" />
+      <point x="1628.9022255033601" y="3690.0" />
+      <point x="267.5486111111113" y="3690.0" />
+      <point x="-50.0" y="61.0" />
+    </edge>
+    <edge source="commands.RemoveLowerCommand" target="readers.complex.SpaceMarineReader">
+      <point x="92.625" y="-61.0" />
+      <point x="1573.5625" y="3268.0" />
+      <point x="5951.861023305178" y="3268.0" />
+      <point x="-96.85714285714289" y="49.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.EnumReader" target="readers.ValueReader">
+      <point x="0.0" y="-82.5" />
+      <point x="4924.8125" y="1690.0" />
+      <point x="4893.0125" y="1690.0" />
+      <point x="4893.0125" y="1259.0" />
+      <point x="5310.617503281138" y="1259.0" />
+      <point x="5310.617503281138" y="1015.0" />
+      <point x="5464.829150003241" y="1015.0" />
+      <point x="-87.5" y="138.5" />
+    </edge>
+    <edge source="readers.complex.CoordinatesReader" target="readers.complex.ValueComplexReader">
+      <point x="99.45000000000005" y="-60.5" />
+      <point x="5608.274983336575" y="2178.0" />
+      <point x="6356.315419947805" y="2178.0" />
+      <point x="-58.5" y="60.5" />
+    </edge>
+    <edge source="data.SpaceMarine" target="data.AstartesCategory">
+      <point x="-162.5" y="-149.0" />
+      <point x="3424.5846680514464" y="1620.0" />
+      <point x="3623.5846680514464" y="1620.0" />
+      <point x="-82.5" y="93.5" />
+    </edge>
+    <edge source="readers.complex.ValueComplexReader" target="readers.ValueFormatException">
+      <point x="87.75" y="-60.5" />
+      <point x="6502.565419947805" y="1690.0" />
+      <point x="6541.065419947804" y="1690.0" />
+      <point x="6541.065419947804" y="518.0" />
+      <point x="6019.512633564209" y="518.0" />
+      <point x="52.75" y="27.0" />
+    </edge>
+    <edge source="commands.RemoveLowerCommand" target="commands.Command">
+      <point x="30.875" y="-61.0" />
+      <point x="1511.8125" y="3218.0" />
+      <point x="1937.711646722103" y="3218.0" />
+      <point x="-15.763888888888687" y="94.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="data.Coordinates">
+      <point x="-35.68421052631584" y="-49.5" />
+      <point x="6013.033955636005" y="2769.0" />
+      <point x="4366.147168051446" y="2769.0" />
+      <point x="4366.147168051446" y="1610.0" />
+      <point x="4237.647168051446" y="1610.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="readers.simple.ZonedDateTimeReader" target="managers.IOManager">
+      <point x="-93.375" y="-38.5" />
+      <point x="5379.948154893552" y="1229.0" />
+      <point x="5077.575836614471" y="1229.0" />
+      <point x="5077.575836614471" y="638.0" />
+      <point x="5107.762633564209" y="638.0" />
+      <point x="0.0" y="138.5" />
+    </edge>
+    <edge source="readers.complex.CoordinatesReader" target="managers.IOManager">
+      <point x="-55.25" y="-60.5" />
+      <point x="5453.574983336575" y="2068.0" />
+      <point x="5338.323154893552" y="2068.0" />
+      <point x="5338.323154893552" y="1239.0" />
+      <point x="5025.638336614471" y="1239.0" />
+      <point x="5025.638336614471" y="628.0" />
+      <point x="5095.023503129426" y="628.0" />
+      <point x="-12.73913043478251" y="138.5" />
+    </edge>
+    <edge source="commands.FilterByHealthCommand" target="readers.simple.number.LongReader">
+      <point x="82.0" y="-61.0" />
+      <point x="2040.4375" y="3308.0" />
+      <point x="6886.715419947805" y="3308.0" />
+      <point x="6886.715419947805" y="2218.0" />
+      <point x="6712.315419947804" y="2218.0" />
+      <point x="53.5" y="61.0" />
+    </edge>
+    <edge source="managers.SpaceMarineCollection" target="managers.IOManager">
+      <point x="-30.625" y="-215.5" />
+      <point x="108.26388888888869" y="2228.0" />
+      <point x="98.8605588366936" y="2228.0" />
+      <point x="98.8605588366936" y="558.0" />
+      <point x="5005.849590085948" y="558.0" />
+      <point x="-101.91304347826076" y="138.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.ClearCommand">
+      <point x="-88.33333333333303" y="-193.5" />
+      <point x="1640.6800032811384" y="3670.0" />
+      <point x="487.2986111111113" y="3670.0" />
+      <point x="-49.75" y="61.0" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="managers.Interpreter">
+      <point x="59.5" y="61.0" />
+      <point x="2510.9375" y="3580.0" />
+      <point x="1764.3466699478045" y="3580.0" />
+      <point x="35.33333333333303" y="-193.5" />
+    </edge>
+    <edge source="readers.simple.ZonedDateTimeReader" target="readers.simple.ValueSimpleReader">
+      <point x="31.125" y="-38.5" />
+      <point x="5504.448154893552" y="1209.0" />
+      <point x="5363.117503281138" y="1209.0" />
+      <point x="-70.0" y="27.0" />
+    </edge>
+    <edge source="commands.RemoveLowerCommand" target="managers.Interpreter">
+      <point x="61.75" y="61.0" />
+      <point x="1542.6875" y="3540.0" />
+      <point x="1717.235558836694" y="3540.0" />
+      <point x="-11.777777777777374" y="-193.5" />
+    </edge>
+    <edge source="commands.SumOfHealthCommand" target="commands.Command">
+      <point x="-60.75" y="-61.0" />
+      <point x="941.1875" y="3148.0" />
+      <point x="1893.5727578332144" y="3148.0" />
+      <point x="-59.902777777777374" y="94.5" />
+    </edge>
+    <edge source="commands.AddIfMinCommand" target="data.SpaceMarine">
+      <point x="88.40000000000009" y="-61.0" />
+      <point x="6918.864821560219" y="3358.0" />
+      <point x="7094.411403508771" y="3358.0" />
+      <point x="7094.411403508771" y="2048.0" />
+      <point x="3814.5846680514464" y="2048.0" />
+      <point x="227.5" y="149.0" />
+    </edge>
+    <edge source="commands.SaveCommand" target="readers.simple.StringReader">
+      <point x="65.33333333333303" y="-61.0" />
+      <point x="3049.770833333333" y="3338.0" />
+      <point x="7029.016082828987" y="3338.0" />
+      <point x="7029.016082828987" y="2228.0" />
+      <point x="6950.549416162321" y="2228.0" />
+      <point x="38.80000000000018" y="72.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.Command">
+      <point x="-58.88888888888869" y="-193.5" />
+      <point x="1670.1244477255827" y="3620.0" />
+      <point x="869.9375" y="3620.0" />
+      <point x="869.9375" y="3138.0" />
+      <point x="1887.2672022776587" y="3138.0" />
+      <point x="-66.20833333333303" y="94.5" />
+    </edge>
+    <edge source="commands.ExecuteScriptCommand" target="readers.simple.StringReader">
+      <point x="81.0" y="-61.0" />
+      <point x="3304.9375" y="3348.0" />
+      <point x="7083.411403508771" y="3348.0" />
+      <point x="7083.411403508771" y="2218.0" />
+      <point x="6989.34941616232" y="2218.0" />
+      <point x="77.59999999999991" y="72.5" />
+    </edge>
+    <edge source="commands.Command" target="managers.IOManager">
+      <point x="56.75" y="-94.5" />
+      <point x="2010.2255356109918" y="568.0" />
+      <point x="5018.588720520731" y="568.0" />
+      <point x="-89.17391304347825" y="138.5" />
+    </edge>
+    <edge source="commands.SumOfHealthCommand" target="managers.Interpreter">
+      <point x="60.75" y="61.0" />
+      <point x="1062.6875" y="3600.0" />
+      <point x="1681.9022255033601" y="3600.0" />
+      <point x="-47.11111111111131" y="-193.5" />
+    </edge>
+    <edge source="readers.simple.number.LongReader" target="readers.ValueFormatException">
+      <point x="80.25" y="-61.0" />
+      <point x="6739.065419947804" y="1690.0" />
+      <point x="6730.940419947804" y="1690.0" />
+      <point x="6730.940419947804" y="498.0" />
+      <point x="6040.612633564208" y="498.0" />
+      <point x="73.84999999999991" y="27.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.InsertAtCommand">
+      <point x="106.0" y="-193.5" />
+      <point x="1835.0133366144714" y="3700.0" />
+      <point x="7013.964821560218" y="3700.0" />
+      <point x="-53.0" y="61.0" />
+    </edge>
+    <edge source="readers.simple.StringReader" target="readers.simple.ValueSimpleReader">
+      <point x="-72.75" y="-72.5" />
+      <point x="6838.999416162321" y="1520.0" />
+      <point x="6132.950836614471" y="1520.0" />
+      <point x="6132.950836614471" y="1129.0" />
+      <point x="5503.117503281138" y="1129.0" />
+      <point x="70.0" y="27.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="managers.SpaceMarineCollection">
+      <point x="-106.0" y="-193.5" />
+      <point x="1623.0133366144714" y="3700.0" />
+      <point x="104.74944772558229" y="3700.0" />
+      <point x="104.74944772558229" y="2829.0" />
+      <point x="169.5138888888887" y="2829.0" />
+      <point x="30.625" y="215.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.EnumReader" target="readers.ValueFormatException">
+      <point x="-42.799999999999955" y="-82.5" />
+      <point x="4882.0125" y="1680.0" />
+      <point x="4839.7625" y="1680.0" />
+      <point x="4839.7625" y="975.0" />
+      <point x="5260.617503281138" y="975.0" />
+      <point x="5260.617503281138" y="598.0" />
+      <point x="5871.812633564208" y="598.0" />
+      <point x="-94.95000000000005" y="27.0" />
+    </edge>
+    <edge source="readers.simple.number.NumberReader" target="readers.ValueFormatException">
+      <point x="75.0" y="-105.5" />
+      <point x="6024.200836614471" y="1269.0" />
+      <point x="6095.700836614471" y="1269.0" />
+      <point x="6095.700836614471" y="638.0" />
+      <point x="5977.312633564208" y="638.0" />
+      <point x="10.549999999999955" y="27.0" />
+    </edge>
+    <edge source="managers.SpaceMarineCollection" target="data.SpaceMarine">
+      <point x="30.625" y="-215.5" />
+      <point x="169.5138888888887" y="2158.0" />
+      <point x="3294.5846680514464" y="2158.0" />
+      <point x="-292.5" y="149.0" />
+    </edge>
+    <edge source="managers.IOManager" target="managers.ReadMod">
+      <point x="-73.25" y="-138.5" />
+      <point x="5034.512633564209" y="146.0" />
+      <point x="5062.512633564209" y="146.0" />
+      <point x="-45.25" y="60.5" />
+    </edge>
+    <edge source="Main" target="managers.Interpreter">
+      <point x="-37.5" y="-27.0" />
+      <point x="1691.5133366144714" y="4172.0" />
+      <point x="1662.7633366144714" y="4172.0" />
+      <point x="-66.25" y="193.5" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="data.SpaceMarine">
+      <point x="0.0" y="-61.0" />
+      <point x="2206.9375" y="3248.0" />
+      <point x="2492.452815285128" y="3248.0" />
+      <point x="2492.452815285128" y="2198.0" />
+      <point x="3554.5846680514464" y="2198.0" />
+      <point x="-32.5" y="149.0" />
+    </edge>
+    <edge source="commands.AddCommand" target="commands.Command">
+      <point x="-77.59999999999968" y="-61.0" />
+      <point x="3384.8375" y="3158.0" />
+      <point x="2032.294980055436" y="3158.0" />
+      <point x="78.81944444444434" y="94.5" />
+    </edge>
+    <edge source="readers.complex.ChapterReader" target="readers.complex.ValueComplexReader">
+      <point x="62.1875" y="-60.5" />
+      <point x="5973.204150003241" y="2198.0" />
+      <point x="6434.315419947805" y="2198.0" />
+      <point x="19.5" y="60.5" />
+    </edge>
+    <edge source="commands.AddCommand" target="readers.complex.SpaceMarineReader">
+      <point x="38.80000000000018" y="-61.0" />
+      <point x="3501.2375" y="3288.0" />
+      <point x="6016.432451876606" y="3288.0" />
+      <point x="-32.28571428571422" y="49.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.simple.notNumber.MeleeWeaponReader">
+      <point x="0.0" y="-49.5" />
+      <point x="6048.718166162321" y="2739.0" />
+      <point x="4984.147168051446" y="2739.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="commands.AddCommand" target="managers.Interpreter">
+      <point x="48.5" y="61.0" />
+      <point x="3510.9375" y="3670.0" />
+      <point x="1817.3466699478045" y="3670.0" />
+      <point x="88.33333333333303" y="-193.5" />
+    </edge>
+    <edge source="readers.complex.ChapterReader" target="managers.IOManager">
+      <point x="12.4375" y="-60.5" />
+      <point x="5923.454150003241" y="2158.0" />
+      <point x="6287.315419947805" y="2158.0" />
+      <point x="6287.315419947805" y="538.0" />
+      <point x="5196.936546607687" y="538.0" />
+      <point x="89.17391304347825" y="138.5" />
+    </edge>
+    <edge source="readers.simple.StringReader" target="managers.IOManager">
+      <point x="24.25" y="-72.5" />
+      <point x="6935.999416162321" y="488.0" />
+      <point x="5235.153937912035" y="488.0" />
+      <point x="127.39130434782601" y="138.5" />
+    </edge>
+    <edge source="readers.complex.ChapterReader" target="readers.ValueReader">
+      <point x="-12.4375" y="-60.5" />
+      <point x="5898.579150003241" y="2148.0" />
+      <point x="6276.315419947805" y="2148.0" />
+      <point x="6276.315419947805" y="985.0" />
+      <point x="5564.829150003241" y="985.0" />
+      <point x="12.5" y="138.5" />
+    </edge>
+    <edge source="commands.InsertAtCommand" target="data.SpaceMarine">
+      <point x="42.40000000000009" y="-61.0" />
+      <point x="7109.364821560219" y="3348.0" />
+      <point x="7195.161403508771" y="3348.0" />
+      <point x="7195.161403508771" y="2038.0" />
+      <point x="3879.5846680514464" y="2038.0" />
+      <point x="292.5" y="149.0" />
+    </edge>
+    <edge source="readers.simple.number.IntegerReader" target="readers.ValueFormatException">
+      <point x="88.875" y="-72.0" />
+      <point x="6093.198154893552" y="1690.0" />
+      <point x="6143.950836614471" y="1690.0" />
+      <point x="6143.950836614471" y="628.0" />
+      <point x="5998.412633564209" y="628.0" />
+      <point x="31.649999999999864" y="27.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="readers.complex.SpaceMarineReader">
+      <point x="84.39999999999998" y="-61.0" />
+      <point x="2291.3375" y="3278.0" />
+      <point x="5984.146737590892" y="3278.0" />
+      <point x="-64.57142857142867" y="49.5" />
+    </edge>
+    <edge source="commands.FilterContainsNameCommand" target="managers.Interpreter">
+      <point x="69.0" y="61.0" />
+      <point x="2797.4375" y="3600.0" />
+      <point x="1776.1244477255827" y="3600.0" />
+      <point x="47.11111111111131" y="-193.5" />
+    </edge>
+    <edge source="commands.InsertAtCommand" target="managers.Interpreter">
+      <point x="53.0" y="61.0" />
+      <point x="7119.964821560218" y="3710.0" />
+      <point x="1840.9022255033601" y="3710.0" />
+      <point x="111.88888888888869" y="-193.5" />
+    </edge>
+    <edge source="commands.FilterContainsNameCommand" target="commands.Command">
+      <point x="-92.0" y="-61.0" />
+      <point x="2636.4375" y="3218.0" />
+      <point x="1994.461646722103" y="3218.0" />
+      <point x="40.98611111111131" y="94.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="data.SpaceMarine">
+      <point x="-83.26315789473688" y="-49.5" />
+      <point x="5965.455008267584" y="2809.0" />
+      <point x="3483.099983336575" y="2809.0" />
+      <point x="3483.099983336575" y="2218.0" />
+      <point x="3684.5846680514464" y="2218.0" />
+      <point x="97.5" y="149.0" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.complex.ChapterReader">
+      <point x="47.57894736842104" y="-49.5" />
+      <point x="6096.297113530742" y="2699.0" />
+      <point x="5911.016650003241" y="2699.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.AddCommand">
+      <point x="82.44444444444434" y="-193.5" />
+      <point x="1811.4577810589158" y="3660.0" />
+      <point x="3413.9375" y="3660.0" />
+      <point x="-48.5" y="61.0" />
+    </edge>
+    <edge source="readers.simple.notNumber.WeaponReader" target="managers.IOManager">
+      <point x="-25.25" y="-49.5" />
+      <point x="4452.397168051446" y="2138.0" />
+      <point x="4344.147168051446" y="2138.0" />
+      <point x="4344.147168051446" y="588.0" />
+      <point x="5044.066981390296" y="588.0" />
+      <point x="-63.695652173913004" y="138.5" />
+    </edge>
+    <edge source="data.SpaceMarine" target="data.MeleeWeapon">
+      <point x="-32.5" y="-149.0" />
+      <point x="3554.5846680514464" y="1640.0" />
+      <point x="3940.5221680514464" y="1640.0" />
+      <point x="-77.625" y="71.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="managers.InterpreterMode">
+      <point x="123.66666666666697" y="-193.5" />
+      <point x="1852.6800032811384" y="3730.0" />
+      <point x="7331.611403508771" y="3730.0" />
+      <point x="-54.25" y="60.5" />
+    </edge>
+    <edge source="commands.ShowCommand" target="commands.Command">
+      <point x="66.66666666666697" y="-61.0" />
+      <point x="384.2152777777783" y="3078.0" />
+      <point x="1849.4338689443248" y="3078.0" />
+      <point x="-104.04166666666697" y="94.5" />
+    </edge>
+    <edge source="readers.ValueReader" target="readers.ValueFormatException">
+      <point x="25.0" y="-138.5" />
+      <point x="5577.329150003241" y="628.0" />
+      <point x="5935.112633564209" y="628.0" />
+      <point x="-31.649999999999977" y="27.0" />
+    </edge>
+    <edge source="readers.simple.number.NumberReader" target="readers.simple.ValueSimpleReader">
+      <point x="-75.0" y="-105.5" />
+      <point x="5874.200836614471" y="1149.0" />
+      <point x="5447.117503281138" y="1149.0" />
+      <point x="14.0" y="27.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.FilterByHealthCommand">
+      <point x="5.888888888888687" y="-193.5" />
+      <point x="1734.9022255033601" y="3530.0" />
+      <point x="1896.9375" y="3530.0" />
+      <point x="-61.5" y="61.0" />
+    </edge>
+    <edge source="commands.InsertAtCommand" target="commands.Command">
+      <point x="-84.80000000000007" y="-61.0" />
+      <point x="6982.164821560218" y="3088.0" />
+      <point x="2057.517202277658" y="3088.0" />
+      <point x="104.04166666666606" y="94.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.WeaponReader" target="data.Weapon">
+      <point x="-75.75" y="-49.5" />
+      <point x="4401.897168051446" y="2148.0" />
+      <point x="3251.5846680514464" y="2148.0" />
+      <point x="-21.75" y="93.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.SaveCommand">
+      <point x="53.0" y="-193.5" />
+      <point x="1782.0133366144714" y="3610.0" />
+      <point x="2935.4375" y="3610.0" />
+      <point x="-49.0" y="61.0" />
+    </edge>
+    <edge source="commands.ClearCommand" target="managers.Interpreter">
+      <point x="49.75" y="61.0" />
+      <point x="586.7986111111113" y="3660.0" />
+      <point x="1646.568892170027" y="3660.0" />
+      <point x="-82.44444444444434" y="-193.5" />
+    </edge>
+    <edge source="readers.simple.StringReader" target="readers.ValueFormatException">
+      <point x="72.75" y="-72.5" />
+      <point x="6984.499416162321" y="1690.0" />
+      <point x="6946.999416162321" y="1690.0" />
+      <point x="6946.999416162321" y="478.0" />
+      <point x="6061.712633564209" y="478.0" />
+      <point x="94.95000000000005" y="27.0" />
+    </edge>
+    <edge source="commands.RemoveLowerCommand" target="data.SpaceMarine">
+      <point x="-92.625" y="-61.0" />
+      <point x="1388.3125" y="3058.0" />
+      <point x="1570.9477578332144" y="3058.0" />
+      <point x="1570.9477578332144" y="2188.0" />
+      <point x="3489.5846680514464" y="2188.0" />
+      <point x="-97.5" y="149.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.FilterContainsNameCommand">
+      <point x="41.222222222222626" y="-193.5" />
+      <point x="1770.235558836694" y="3590.0" />
+      <point x="2659.4375" y="3590.0" />
+      <point x="-69.0" y="61.0" />
+    </edge>
+    <edge source="commands.FilterByHealthCommand" target="commands.Command">
+      <point x="-82.0" y="-61.0" />
+      <point x="1876.4375" y="3248.0" />
+      <point x="1956.6283133887691" y="3248.0" />
+      <point x="3.1527777777773736" y="94.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="data.MeleeWeapon">
+      <point x="-47.57894736842104" y="-49.5" />
+      <point x="6001.1392187939" y="2779.0" />
+      <point x="4044.0221680514464" y="2779.0" />
+      <point x="25.875" y="71.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.ValueReader">
+      <point x="95.15789473684208" y="-49.5" />
+      <point x="6143.876060899163" y="2819.0" />
+      <point x="6776.315419947804" y="2819.0" />
+      <point x="6776.315419947804" y="955.0" />
+      <point x="5639.829150003241" y="955.0" />
+      <point x="87.5" y="138.5" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="readers.simple.number.IntegerReader">
+      <point x="79.33333333333348" y="-61.0" />
+      <point x="2530.7708333333335" y="3318.0" />
+      <point x="6897.715419947805" y="3318.0" />
+      <point x="6897.715419947805" y="2128.0" />
+      <point x="6063.573154893552" y="2128.0" />
+      <point x="59.25" y="72.0" />
+    </edge>
+    <edge source="commands.ClearCommand" target="commands.Command">
+      <point x="-49.75" y="-61.0" />
+      <point x="487.2986111111113" y="3088.0" />
+      <point x="1855.7394244998804" y="3088.0" />
+      <point x="-97.73611111111131" y="94.5" />
+    </edge>
+    <edge source="commands.SaveCommand" target="managers.Interpreter">
+      <point x="49.0" y="61.0" />
+      <point x="3033.4375" y="3620.0" />
+      <point x="1787.9022255033601" y="3620.0" />
+      <point x="58.88888888888869" y="-193.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="managers.IOManager">
+      <point x="-107.05263157894728" y="-49.5" />
+      <point x="5941.665534583373" y="2829.0" />
+      <point x="3175.8346680514464" y="2829.0" />
+      <point x="3175.8346680514464" y="578.0" />
+      <point x="5031.327850955513" y="578.0" />
+      <point x="-76.43478260869574" y="138.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="data.Chapter">
+      <point x="11.894736842105203" y="-49.5" />
+      <point x="6060.612903004426" y="2729.0" />
+      <point x="5132.584668051446" y="2729.0" />
+      <point x="5132.584668051446" y="1590.0" />
+      <point x="4517.897168051446" y="1590.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="commands.ShowCommand" target="data.SpaceMarine">
+      <point x="-66.66666666666697" y="-61.0" />
+      <point x="250.88194444444434" y="3058.0" />
+      <point x="713.452815285129" y="3058.0" />
+      <point x="713.452815285129" y="2178.0" />
+      <point x="3424.5846680514464" y="2178.0" />
+      <point x="-162.5" y="149.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.ExecuteScriptCommand">
+      <point x="64.77777777777737" y="-193.5" />
+      <point x="1793.7911143922488" y="3630.0" />
+      <point x="3142.9375" y="3630.0" />
+      <point x="-81.0" y="61.0" />
+    </edge>
+    <edge source="readers.simple.number.LongReader" target="readers.simple.number.NumberReader">
+      <point x="-80.25" y="-61.0" />
+      <point x="6578.565419947804" y="1540.0" />
+      <point x="5999.200836614471" y="1540.0" />
+      <point x="50.0" y="105.5" />
+    </edge>
+    <edge source="commands.InfoCommand" target="commands.Command">
+      <point x="48.0" y="-61.0" />
+      <point x="1288.4375" y="3188.0" />
+      <point x="1918.794980055436" y="3188.0" />
+      <point x="-34.68055555555566" y="94.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.EnumReader" target="managers.IOManager">
+      <point x="-85.60000000000014" y="-82.5" />
+      <point x="4839.2125" y="1690.0" />
+      <point x="4828.7625" y="1690.0" />
+      <point x="4828.7625" y="608.0" />
+      <point x="5069.545242259861" y="608.0" />
+      <point x="-38.21739130434776" y="138.5" />
+    </edge>
+    <edge source="commands.ShowCommand" target="managers.Interpreter">
+      <point x="50.0" y="61.0" />
+      <point x="367.5486111111113" y="3680.0" />
+      <point x="1634.7911143922497" y="3680.0" />
+      <point x="-94.22222222222172" y="-193.5" />
+    </edge>
+    <edge source="data.SpaceMarine" target="data.Coordinates">
+      <point x="97.5" y="-149.0" />
+      <point x="3684.5846680514464" y="1660.0" />
+      <point x="4160.847168051447" y="1660.0" />
+      <point x="-76.79999999999995" y="61.0" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="data.Weapon">
+      <point x="-95.15789473684208" y="-49.5" />
+      <point x="5953.560271425478" y="2819.0" />
+      <point x="3213.7096680514464" y="2819.0" />
+      <point x="3213.7096680514464" y="1690.0" />
+      <point x="3208.0846680514464" y="1690.0" />
+      <point x="-65.25" y="93.5" />
+    </edge>
+    <edge source="commands.InfoCommand" target="managers.Interpreter">
+      <point x="48.0" y="61.0" />
+      <point x="1288.4375" y="3570.0" />
+      <point x="1699.568892170027" y="3570.0" />
+      <point x="-29.444444444444343" y="-193.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.complex.CoordinatesReader">
+      <point x="23.789473684210634" y="-49.5" />
+      <point x="6072.507639846532" y="2719.0" />
+      <point x="5453.574983336575" y="2719.0" />
+      <point x="-55.25" y="60.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.MeleeWeaponReader" target="managers.IOManager">
+      <point x="88.125" y="-49.5" />
+      <point x="5072.272168051446" y="2228.0" />
+      <point x="5042.3125" y="2228.0" />
+      <point x="5042.3125" y="1249.0" />
+      <point x="4941.3125" y="1249.0" />
+      <point x="4941.3125" y="618.0" />
+      <point x="5082.284372694643" y="618.0" />
+      <point x="-25.478260869565247" y="138.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="data.AstartesCategory">
+      <point x="-59.473684210526244" y="-49.5" />
+      <point x="5989.244481951795" y="2789.0" />
+      <point x="3922.5846680514464" y="2789.0" />
+      <point x="3922.5846680514464" y="1630.0" />
+      <point x="3733.5846680514464" y="1630.0" />
+      <point x="27.5" y="93.5" />
+    </edge>
+    <edge source="data.SpaceMarine" target="data.Chapter">
+      <point x="227.5" y="-149.0" />
+      <point x="3814.5846680514464" y="1680.0" />
+      <point x="4457.097168051447" y="1680.0" />
+      <point x="-60.799999999999955" y="61.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.SumOfHealthCommand">
+      <point x="-53.0" y="-193.5" />
+      <point x="1676.0133366144714" y="3610.0" />
+      <point x="941.1875" y="3610.0" />
+      <point x="-60.75" y="61.0" />
+    </edge>
+    <edge source="readers.simple.notNumber.WeaponReader" target="readers.simple.notNumber.EnumReader">
+      <point x="25.25" y="-49.5" />
+      <point x="4502.897168051446" y="2198.0" />
+      <point x="4835.645833333333" y="2198.0" />
+      <point x="-89.16666666666674" y="82.5" />
+    </edge>
+    <edge source="data.SpaceMarine" target="data.Weapon">
+      <point x="-292.5" y="-149.0" />
+      <point x="21.75" y="93.5" />
+    </edge>
+    <edge source="commands.FilterByHealthCommand" target="managers.Interpreter">
+      <point x="61.5" y="61.0" />
+      <point x="2019.9375" y="3540.0" />
+      <point x="1740.7911143922497" y="3540.0" />
+      <point x="11.777777777778283" y="-193.5" />
+    </edge>
+    <edge source="managers.Interpreter" target="commands.UpdateCommand">
+      <point x="17.66666666666697" y="-193.5" />
+      <point x="1746.6800032811384" y="3550.0" />
+      <point x="2154.1875" y="3550.0" />
+      <point x="-52.75" y="61.0" />
+    </edge>
+    <edge source="readers.complex.CoordinatesReader" target="readers.simple.number.FloatReader">
+      <point x="-11.049999999999955" y="-60.5" />
+      <point x="5497.774983336575" y="2078.0" />
+      <point x="5705.323154893552" y="2078.0" />
+      <point x="-53.5" y="49.5" />
+    </edge>
+    <edge source="readers.simple.ValueSimpleReader" target="readers.ValueReader">
+      <point x="74.66666666666674" y="-27.0" />
+      <point x="5507.784169947805" y="1025.0" />
+      <point x="5514.829150003241" y="1025.0" />
+      <point x="-37.5" y="138.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.simple.StringReader">
+      <point x="107.05263157894728" y="-49.5" />
+      <point x="6155.770797741268" y="2829.0" />
+      <point x="6875.715419947805" y="2829.0" />
+      <point x="6875.715419947805" y="2228.0" />
+      <point x="6872.949416162321" y="2228.0" />
+      <point x="-38.80000000000018" y="72.5" />
+    </edge>
+    <edge source="readers.complex.ChapterReader" target="readers.simple.number.IntegerReader">
+      <point x="-62.1875" y="-60.5" />
+      <point x="5848.829150003241" y="2128.0" />
+      <point x="6024.073154893552" y="2128.0" />
+      <point x="19.75" y="72.0" />
+    </edge>
+    <edge source="readers.complex.ChapterReader" target="readers.simple.StringReader">
+      <point x="87.0625" y="-60.5" />
+      <point x="5998.079150003241" y="2228.0" />
+      <point x="6834.149416162321" y="2228.0" />
+      <point x="-77.59999999999991" y="72.5" />
+    </edge>
+    <edge source="readers.simple.ValueSimpleReader" target="managers.IOManager">
+      <point x="-74.66666666666674" y="-27.0" />
+      <point x="5358.450836614471" y="995.0" />
+      <point x="5410.617503281138" y="995.0" />
+      <point x="5410.617503281138" y="578.0" />
+      <point x="5145.980024868557" y="578.0" />
+      <point x="38.21739130434776" y="138.5" />
+    </edge>
+    <edge source="commands.AddCommand" target="data.SpaceMarine">
+      <point x="2.2737367544323206E-13" y="-61.0" />
+      <point x="3462.4375" y="3138.0" />
+      <point x="3164.8346680514464" y="3138.0" />
+      <point x="3164.8346680514464" y="2208.0" />
+      <point x="3619.5846680514464" y="2208.0" />
+      <point x="32.5" y="149.0" />
+    </edge>
+    <edge source="readers.ValueReader" target="managers.IOManager">
+      <point x="-75.0" y="-138.5" />
+      <point x="5477.329150003241" y="558.0" />
+      <point x="5171.458285738122" y="558.0" />
+      <point x="63.695652173913004" y="138.5" />
+    </edge>
+    <edge source="readers.complex.SpaceMarineReader" target="readers.simple.notNumber.WeaponReader">
+      <point x="-23.789473684210407" y="-49.5" />
+      <point x="6024.92869247811" y="2759.0" />
+      <point x="4477.647168051446" y="2759.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="readers.complex.CoordinatesReader" target="readers.simple.number.IntegerReader">
+      <point x="33.150000000000034" y="-60.5" />
+      <point x="5541.974983336575" y="2108.0" />
+      <point x="5945.073154893552" y="2108.0" />
+      <point x="-59.25" y="72.0" />
+    </edge>
+    <edge source="readers.complex.CoordinatesReader" target="data.Coordinates">
+      <point x="-99.44999999999993" y="-60.5" />
+      <point x="5409.374983336575" y="2088.0" />
+      <point x="5195.129404893552" y="2088.0" />
+      <point x="5195.129404893552" y="1580.0" />
+      <point x="4276.0471680514465" y="1580.0" />
+      <point x="38.40000000000009" y="61.0" />
+    </edge>
+    <edge source="managers.Interpreter" target="managers.IOManager">
+      <point x="-129.55555555555566" y="-193.5" />
+      <point x="1599.4577810589158" y="3740.0" />
+      <point x="0.0" y="3740.0" />
+      <point x="0.0" y="528.0" />
+      <point x="4967.6321987816" y="528.0" />
+      <point x="-140.13043478260875" y="138.5" />
+    </edge>
+    <edge source="commands.ExitCommand" target="managers.Interpreter">
+      <point x="47.75" y="61.0" />
+      <point x="1767.6875" y="3520.0" />
+      <point x="1729.0133366144714" y="3520.0" />
+      <point x="0.0" y="-193.5" />
+    </edge>
+    <edge source="commands.Command" target="managers.Interpreter">
+      <point x="-28.375" y="94.5" />
+      <point x="1925.1005356109918" y="3198.0" />
+      <point x="1346.9375" y="3198.0" />
+      <point x="1346.9375" y="3560.0" />
+      <point x="1705.4577810589158" y="3560.0" />
+      <point x="-23.555555555555657" y="-193.5" />
+    </edge>
+    <edge source="readers.complex.ValueComplexReader" target="readers.ValueReader">
+      <point x="-87.75" y="-60.5" />
+      <point x="6327.065419947805" y="1690.0" />
+      <point x="6360.190419947805" y="1690.0" />
+      <point x="6360.190419947805" y="975.0" />
+      <point x="5589.829150003241" y="975.0" />
+      <point x="37.5" y="138.5" />
+    </edge>
+    <edge source="commands.AddIfMinCommand" target="readers.complex.SpaceMarineReader">
+      <point x="0.0" y="-61.0" />
+      <point x="6830.464821560218" y="3108.0" />
+      <point x="6081.0038804480355" y="3108.0" />
+      <point x="32.28571428571422" y="49.5" />
+    </edge>
+    <edge source="commands.ExitCommand" target="commands.Command">
+      <point x="47.75" y="-61.0" />
+      <point x="1767.6875" y="3238.0" />
+      <point x="1950.3227578332144" y="3238.0" />
+      <point x="-3.1527777777773736" y="94.5" />
+    </edge>
+    <edge source="readers.simple.number.FloatReader" target="readers.ValueFormatException">
+      <point x="-26.75" y="-49.5" />
+      <point x="5732.073154893552" y="1680.0" />
+      <point x="5630.323154893552" y="1680.0" />
+      <point x="5630.323154893552" y="1169.0" />
+      <point x="5193.638336614471" y="1169.0" />
+      <point x="5193.638336614471" y="1005.0" />
+      <point x="5441.829150003241" y="1005.0" />
+      <point x="5441.829150003241" y="618.0" />
+      <point x="5914.012633564209" y="618.0" />
+      <point x="-52.75" y="27.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="readers.simple.number.IntegerReader">
+      <point x="42.19999999999982" y="-61.0" />
+      <point x="2249.1375" y="3258.0" />
+      <point x="5387.824983336574" y="3258.0" />
+      <point x="5387.824983336574" y="2098.0" />
+      <point x="5905.573154893552" y="2098.0" />
+      <point x="-98.75" y="72.0" />
+    </edge>
+    <edge source="commands.AddIfMinCommand" target="managers.Interpreter">
+      <point x="55.25" y="61.0" />
+      <point x="6885.714821560218" y="3690.0" />
+      <point x="1829.1244477255827" y="3690.0" />
+      <point x="100.11111111111131" y="-193.5" />
+    </edge>
+    <edge source="readers.simple.number.IntegerReader" target="managers.IOManager">
+      <point x="-88.875" y="-72.0" />
+      <point x="5915.448154893552" y="1670.0" />
+      <point x="5719.909169947805" y="1670.0" />
+      <point x="5719.909169947805" y="1159.0" />
+      <point x="5271.617503281138" y="1159.0" />
+      <point x="5271.617503281138" y="588.0" />
+      <point x="5133.240894433774" y="588.0" />
+      <point x="25.478260869565247" y="138.5" />
+    </edge>
+    <edge source="readers.simple.notNumber.AstartesCategoryReader" target="readers.simple.notNumber.EnumReader">
+      <point x="93.0" y="-49.5" />
+      <point x="4815.647168051446" y="2228.0" />
+      <point x="4942.645833333333" y="2228.0" />
+      <point x="17.833333333333258" y="82.5" />
+    </edge>
+    <edge source="commands.AddIfMinCommand" target="commands.Command">
+      <point x="-44.19999999999982" y="-61.0" />
+      <point x="6786.2648215602185" y="3118.0" />
+      <point x="2051.211646722103" y="3118.0" />
+      <point x="97.73611111111131" y="94.5" />
+    </edge>
+    <edge source="commands.FilterContainsNameCommand" target="readers.simple.StringReader">
+      <point x="92.0" y="-61.0" />
+      <point x="2820.4375" y="3328.0" />
+      <point x="6908.84941616232" y="3328.0" />
+      <point x="6908.84941616232" y="2228.0" />
+      <point x="6911.749416162321" y="2228.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="readers.complex.ValueComplexReader" target="managers.IOManager">
+      <point x="29.25" y="-60.5" />
+      <point x="6444.065419947805" y="1690.0" />
+      <point x="6420.315419947805" y="1690.0" />
+      <point x="6420.315419947805" y="528.0" />
+      <point x="5209.675677042469" y="528.0" />
+      <point x="101.91304347826076" y="138.5" />
+    </edge>
+    <edge source="commands.Command" target="managers.SpaceMarineCollection">
+      <point x="-56.75" y="-94.5" />
+      <point x="1896.7255356109918" y="2829.0" />
+      <point x="230.7638888888887" y="2829.0" />
+      <point x="91.875" y="215.5" />
+    </edge>
+    <edge source="readers.complex.ChapterReader" target="data.Chapter">
+      <point x="-37.3125" y="-60.5" />
+      <point x="5873.704150003241" y="2138.0" />
+      <point x="6209.302321560219" y="2138.0" />
+      <point x="6209.302321560219" y="1550.0" />
+      <point x="4578.697168051446" y="1550.0" />
+      <point x="60.799999999999955" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5" x="5262.0" y="487.0" />
+  <SelectedNodes>
+    <node>readers.simple.number.NumberReader</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
